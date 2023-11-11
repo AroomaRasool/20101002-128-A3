@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arooma Rasool.CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* CSS styles for the webpage */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightgrey;
+            margin: 0;
+            padding: 0;
+        }
+
+        .profile-picture img {
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .header {
+             background-color: #333;
+            color: white;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+
+        .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: #ffffff; /* Set the background color */
+    border: 2px solid #333; /* Add a border */
+    padding: 20px; /* Add padding inside the container */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+
+        .left-column, .right-column {
+            width: 25%;
+            padding: 10px;
+        }
+
+       .middle-column {
+    width: 50%;
+    padding: 20px;
+    background-color: #f9f9f9; /* Set background color for the middle column */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow effect */
+}
+
+/* Style the headers in the middle column */
+.middle-column h2, .middle-column h3 {
+    color: #333;
+}
+
+/* Style the text inside the middle column */
+.middle-column p, .middle-column ul, .middle-column ol {
+    color: #555;
+}
+
+/* Style the list items in the middle column */
+.middle-column ul li, .middle-column ol li {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Style the table in the middle column */
+.middle-column .cv table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.middle-column .cv table, .middle-column .cv th, .middle-column .cv td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.middle-column .cv th {
+    background-color: #f2f2f2;
+}
+
+.middle-column .cv tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.middle-column .cv tr:hover {
+    background-color: #e0e0e0;
+}
+
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            color: white;
+        }
+
+        .cv table {
+            width: 100%;
+            margin-top: 10px;
+            border-collapse: collapse;
+        }
+
+        .cv table, .cv th, .cv td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .cv th {
+            background-color: #f2f2f2;
+        }
+
+        .cv tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .cv tr:hover {
+            background-color: #e0e0e0;
+        }
+
+        .cv ul, .cv ol {
+            margin-top: 5px;
+        }
+
+        .whatsapp-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 15px;
+            border-radius: 50%;
+            font-size: 24px;
+        }
+
+        @media only screen and (max-device-width: 414px) and (orientation:portrait){
+            /* Mobile styles */
+            body{
+                margin: 10px;
+                padding: 10px;
+            }
+
+        
+
+            .profile-picture img {
+                margin: 0 auto 10px;
+            }
+            
+        }
+
+        @media only screen and (min-width: 769px) and (max-width: 1024px) {
+            /* Tablet styles */
+            .container {
+                flex-direction: row;
+                justify-content: space-around;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Arooma Rasool</h1>
+        <div class="profile-picture">
+            <img src="https://st2.depositphotos.com/1007566/11575/v/450/depositphotos_115758834-stock-illustration-young-and-beautiful-woman-face.jpg" alt="Profile Picture" width="100" height="100">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="left-column">
+            <h2>Professional Skills</h2>
+            <ul>
+                <li>HTML/CSS</li>
+                <li>Presentation Skills</li>
+                <li>Creativity</li>
+                <li>Professional Editing</li>
+                <li>Customer Service</li>
+            </ul>
+        </div>
+ 
+        <div class="middle-column">
+            <h2>Curriculum Vitae</h2>
+            <h3>Educational History</h3>
+            <table class="cv">
+                <tr>
+                    <th>Year</th>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                </tr>
+                <tr>
+                    <td>2015-2017</td>
+                    <td>Matriculation</td>
+                    <td>Allama Iqbal Public School</td>
+                </tr>
+                <tr>
+                    <td>2017-2019</td>
+                    <td>Intermediate</td>
+                    <td>Punjab Group Of colleges</td>
+                </tr>
+                <tr>
+                    <td>2020-2024</td>
+                    <td>Bachelor's in Computer Science</td>
+                    <td>University Of Sialkot</td>
+                </tr>
+            </table>
+            <iframe width="400" height="200" src="https://www.youtube.com/embed/RUbEanV6dmI" title="CV/Portfolio Motion Graphic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+           
+            <h3>Hobbies</h3>
+            <ol>
+                <li>Traveling</li>
+                <li>Editing</li>
+                <li>Photography</li>
+                <li>Gardening</li>
+                <li>Home DIY Projects</li>
+            </ol>
+
+            <h3>Life Ambition</h3>
+            <p>Career Ambitions:</p>
+            <p>Educational Ambitions:</p>
+            <p>Social and Humanitarian Ambitions:</p>
+
+            <h3>Contribution to Country</h3>
+            <p>Active Citizenship:</p>
+
+            <h3>What do you want to do for your country?</h3>
+            <p>Community Service</p>
+            <p>Healthcare and Well-being</p>
+            <p>Social and Political Change</p>
+            <p><b>Audio</b></p>
+    <audio controls>   
+       <source src="resume.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+    </audio>
+            <hr>
+            <p><b>My Current Location</b></p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3367.875909171409!2d74.46996517446892!3d32.422481902022106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391ec24b2f085555%3A0x8932bf2f6d1764be!2sGhuinke%20Real%20Estate!5e0!3m2!1sen!2s!4v1699634880260!5m2!1sen!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p><b>Video</b></p>
+<video width="100%" controls>
+    <source src="resume.mp4" type="video/mp4">
+    Your browser does not support the video element.
+</video>
+        </div>
+
+
+        <div class="right-column">
+            <h2>Projects</h2>
+            <ul>
+                <li>Project 1: Quiz Game</li>
+                <li>Project 2: Cinema reservation system</li>
+                <li>Project 3: food rescue app</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Email: <a href="mailto:20101002-128@uskt.edu.pk">20101002-128@uskt.edu.pk</a></p>
+        <div class="social-icons">
+            <a href="#"><img src="https://seeklogo.com/images/F/facebook-icon-circle-logo-09F32F61FF-seeklogo.com.png" alt="Facebook" style="width: 40px; height: 40px;"></a>
+            <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUMUvW6klNAJ1WMTFtXHV0wDr11vMNlMwxFXkF9iMTYw&amp;s" alt="Instagram" style="width: 40px; height: 40px;"></a>
+            <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVDXeEimDCRqiH-tOmcWhECLerYJgWHGOzkbGAZtI&amp;s" alt="LinkedIn" style="width: 40px; height: 40px;"></a>
+            <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh7a-ajAobxSyQ1Cockvn6ZMAr45J-_ndgbQJFMu8&amp;s" alt="GitHub" style="width: 40px; height: 40px;"></a>
+        </div>
+    </div>
+    <div class="whatsapp-icon"> 
+               <a href="https://wa.me/1234567890">
+                <img src="  https://static-00.iconduck.com/assets.00/whatsapp-icon-2040x2048-8b5th74o.png" alt="WhatsApp" style="width: 55px; height: 55px;">
+            </a>
+        </div>
+</body>
+</html>
